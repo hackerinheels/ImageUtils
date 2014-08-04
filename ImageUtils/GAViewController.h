@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface GAViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UIImageView *iv1;
+@property (nonatomic, strong) IBOutlet UIImageView *iv2;
 
 @end

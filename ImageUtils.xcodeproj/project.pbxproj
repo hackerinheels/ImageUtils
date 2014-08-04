@@ -21,6 +21,8 @@
 		7CED79E2199030DA002C9043 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CED79C4199030DA002C9043 /* UIKit.framework */; };
 		7CED79EA199030DA002C9043 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CED79E8199030DA002C9043 /* InfoPlist.strings */; };
 		7CED79EC199030DA002C9043 /* ImageUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED79EB199030DA002C9043 /* ImageUtilsTests.m */; };
+		7CED79F719903123002C9043 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CED79F619903123002C9043 /* UIImage+ImageEffects.m */; };
+		7CED79F91990318B002C9043 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CED79F81990318B002C9043 /* img.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		7CED79E7199030DA002C9043 /* ImageUtilsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageUtilsTests-Info.plist"; sourceTree = "<group>"; };
 		7CED79E9199030DA002C9043 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CED79EB199030DA002C9043 /* ImageUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageUtilsTests.m; sourceTree = "<group>"; };
+		7CED79F519903123002C9043 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		7CED79F619903123002C9043 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		7CED79F81990318B002C9043 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,9 @@
 		7CED79C6199030DA002C9043 /* ImageUtils */ = {
 			isa = PBXGroup;
 			children = (
+				7CED79F81990318B002C9043 /* img.png */,
+				7CED79F519903123002C9043 /* UIImage+ImageEffects.h */,
+				7CED79F619903123002C9043 /* UIImage+ImageEffects.m */,
 				7CED79CF199030DA002C9043 /* GAAppDelegate.h */,
 				7CED79D0199030DA002C9043 /* GAAppDelegate.m */,
 				7CED79D2199030DA002C9043 /* Main.storyboard */,
@@ -232,6 +240,7 @@
 				7CED79D9199030DA002C9043 /* Images.xcassets in Resources */,
 				7CED79CB199030DA002C9043 /* InfoPlist.strings in Resources */,
 				7CED79D4199030DA002C9043 /* Main.storyboard in Resources */,
+				7CED79F91990318B002C9043 /* img.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CED79F719903123002C9043 /* UIImage+ImageEffects.m in Sources */,
 				7CED79D1199030DA002C9043 /* GAAppDelegate.m in Sources */,
 				7CED79D7199030DA002C9043 /* GAViewController.m in Sources */,
 				7CED79CD199030DA002C9043 /* main.m in Sources */,
